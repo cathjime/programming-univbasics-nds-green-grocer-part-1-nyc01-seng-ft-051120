@@ -13,9 +13,15 @@ end
 
 
 def consolidate_cart(cart)
-  cart.map do ||
-    # binding.pry
+  count = 0 
+  while count < collection.length do
+  if name == collection[count][:item]  
+   return collection[count]
   end 
+   count += 1
+ end 
+    # binding.pry
+  
 end
 
 
