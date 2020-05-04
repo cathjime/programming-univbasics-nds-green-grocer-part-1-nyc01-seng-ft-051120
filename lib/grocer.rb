@@ -20,6 +20,7 @@ def consolidate_cart(cart)
     cart_element = cart[count]
     # binding.pry
     if consolidated.include(cart_element)
+      cart_element[count] = 1 
     end 
      
    count += 1
