@@ -19,6 +19,7 @@ def consolidate_cart(cart)
   while count < cart.length do
     cart_element = cart[count]
     cart_element[:count] = 1 
+    binding.pry
     
     if consolidated.include?(cart_element)
       cart_element[:count] += 1 
