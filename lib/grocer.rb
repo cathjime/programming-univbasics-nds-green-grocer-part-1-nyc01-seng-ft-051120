@@ -17,6 +17,8 @@ def consolidate_cart(cart)
     # binding.pry
   end 
 end
+
+
 #iterate thru cart array 
 #if ele is duplicate, count +=1 
 #else count = 1 
