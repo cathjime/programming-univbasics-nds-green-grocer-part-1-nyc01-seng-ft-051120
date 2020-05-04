@@ -25,7 +25,6 @@ def consolidate_cart(cart)
       cart_element[:count] += 1 
       consolidated.push(cart_element)
     end 
-     
    count += 1
   end 
  end 
