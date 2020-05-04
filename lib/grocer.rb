@@ -6,6 +6,7 @@ def find_item_by_name_in_collection(name, collection)
  while count < collection.length do
    name == collection[count]  #should equal a string then return obj
    return collection[:item]
+   binding.pry
    count += 1
  end 
   
