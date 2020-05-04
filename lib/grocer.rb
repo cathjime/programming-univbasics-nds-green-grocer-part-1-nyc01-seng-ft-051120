@@ -5,7 +5,6 @@ def find_item_by_name_in_collection(name, collection)
  
  while count < collection.length do
    name == collection[count]  #should equal a string then return obj
-   final = Hash.new 
    return collection[count]
    count += 1
  end 
