@@ -9,14 +9,6 @@ def find_item_by_name_in_collection(name, collection)
    binding.pry
    count += 1
  end 
-  
-  # collection.map do |each_item_hash|
-  #   binding.pry
-  #     if name == each_item_hash[:item]
-        
-  #       return each_item_hash
-  #     end
-  # end 
 end
 
 
