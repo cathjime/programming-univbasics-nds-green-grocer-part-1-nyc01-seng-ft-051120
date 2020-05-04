@@ -15,7 +15,7 @@ end
 def consolidate_cart(cart)
   count = 0 
   
-  while count < collection.length do
+  while count < cart.length do
   if name == collection[count][:item]  
    return collection[count]
   end 
