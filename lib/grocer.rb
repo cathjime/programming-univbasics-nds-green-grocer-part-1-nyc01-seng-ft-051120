@@ -20,7 +20,7 @@ def consolidate_cart(cart)
     cart_element = cart[count]
     
     if !consolidated.include?(cart_element)
-      cart_element[count] = 1 
+      cart_element[:count] = 1 
      binding.pry
     end 
      
