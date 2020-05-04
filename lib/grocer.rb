@@ -20,6 +20,7 @@ def consolidate_cart(cart)
     binding.pry
   if cart[count]
    count += 1
+  end 
  end 
     # binding.pry
   
