@@ -21,7 +21,9 @@ def consolidate_cart(cart)
     
     if !consolidated.include?(cart_element)
       cart_element[:count] = 1 
-     binding.pry
+    else
+      cart_element[:count] += 1 
+      consolidated.push(cart_element)
     end 
      
    count += 1
