@@ -14,9 +14,10 @@ end
 
 def consolidate_cart(cart)
   count = 0 
+  consolidated = {}
   
   while count < cart.length do
-  
+  if cart[count]
    count += 1
  end 
     # binding.pry
