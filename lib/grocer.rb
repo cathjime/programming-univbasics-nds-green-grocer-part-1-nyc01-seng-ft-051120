@@ -18,8 +18,9 @@ def consolidate_cart(cart)
   
   while count < cart.length do
     item_hash = cart[count]
+    binding.pry
   if consolidated[item_hash]
-     binding.pry
+     
    count += 1
   end 
  end 
