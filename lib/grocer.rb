@@ -25,7 +25,7 @@ def consolidate_cart(cart)
     else
       consolidated.push(cart_element)
       
-      binding.pry
+      # binding.pry
     end 
    count += 1
   end 
