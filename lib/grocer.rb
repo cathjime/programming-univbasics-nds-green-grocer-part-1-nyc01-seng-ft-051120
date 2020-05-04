@@ -20,10 +20,9 @@ def consolidate_cart(cart)
     cart_element = cart[count]
     cart_element[:count] = 1 
     
-    if !consolidated.include?(cart_element)
-      cart_element[:count] = 1 
-    else
+    if consolidated.include?(cart_element)
       cart_element[:count] += 1 
+    else
       consolidated.push(cart_element)
     end 
    count += 1
