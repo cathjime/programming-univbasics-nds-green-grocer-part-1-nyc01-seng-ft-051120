@@ -19,7 +19,7 @@ def consolidate_cart(cart)
   while count < cart.length do
     cart_element = cart[count]
     
-    if !consolidated.include(cart_element)
+    if !consolidated.include?(cart_element)
       cart_element[count] = 1 
       # binding.pry
     end 
